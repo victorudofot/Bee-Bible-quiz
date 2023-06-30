@@ -3,7 +3,7 @@
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 const question = document.querySelectorAll(".question");
-const correctAnswer = ["D", "C", "B", "A", "A"];
+const correctAnswer = ["D", "C", "B", "A", "B"];
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
